@@ -1,0 +1,78 @@
+/* UNiversel Selector */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* Element/Name Selector */
+body {
+  background-color: white;
+}
+/* ID Selector  */
+#admin-box {
+  background-color: white;
+  color: black;
+  text-align: center;
+  width: 80%;
+  margin: 5% auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+/* Class Selector */
+.admin-img {
+  width: 100px;
+}
+/* Decendent Selector */
+#admin-box h1 {
+  font-size: 25px;
+  text-transform: 
+}
+/* Grouping Selector */
+input,
+label {
+  display: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+input {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 20px auto;
+  width: 25%;
+
+}
+label {
+  font-size: 20px;
+  
+}
+
+p {
+  font-size: 20px;
+}
+p a {
+  text-decoration: none;
+  color: gray;
+  text-transform: capitalize;
+}
+input:focus {
+  background-color: rgb(131, 102, 80);
+}
+input::placeholder {
+  color: black;
+}
+input[type="submit"] {
+  background-color: rgb(112, 110, 108);
+  border: 1px solid rgb(45, 44, 44);
+  margin: 20px auto;
+  width: 25%;
+
+  transition: ease-in-out 0.8s;
+}
+input[type="submit"]:hover {
+  background-color: transparent;
+  border: 1px solid black;
+}
